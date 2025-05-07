@@ -1,0 +1,79 @@
+/* Google 1998 Stil Dosyası */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .google-logo {
+    display: block;
+    margin: 0 auto;
+    width: 270px;
+  }
+  
+  .search-area {
+    background-color: #EEEEEE;
+    padding: 12px;
+    margin: 8px 0;
+  }
+  
+  .search-box input {
+    width: 300px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  .buttons {
+    margin-top: 3px;
+  }
+  
+  .buttons button {
+    margin: 3px;
+    padding: 2px 6px;
+    font-size: 12px;
+    border: 1px solid #aaa;
+    background-color: #f2f2f2;
+    cursor: pointer;
+  }
+  
+  .link-sections {
+    display: flex;
+    margin-top: 2px;
+  }
+  
+  .section {
+    flex: 1;
+    padding: 5px;
+    background-color: #7EE5DA;
+    margin: 1px;
+    text-align: center;
+    font-size: 13px;
+  }
+  
+  .section.middle {
+    background-color: #70CCC2;
+  }
+  
+  .section.right {
+    background-color: #62B3AA;
+    
+  }
+  
+  
+  footer {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  
+  a {
+    margin-top: 10px;
+    color: blue;
+  }
